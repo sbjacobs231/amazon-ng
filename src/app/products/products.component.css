@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1500px;
+}
+.row {
+  display: inline-block;
+  width: 100%;
+}
+.banner {
+  background-color: #F9F9F9;
+  padding-top: 20px;
+}
+.col-xs-12 {
+  padding: 0;
+}

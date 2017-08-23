@@ -1,0 +1,14 @@
+#Carousel {
+  min-width: 1000px;
+  /*width: 100%;*/
+  max-width: 1500px;
+  margin: 0 auto;
+  /*overflow: hidden;*/
+  height: 300px;
+}
+span {
+  cursor: pointer;
+}
+img {
+  min-width: 1500px;
+}

@@ -1,0 +1,54 @@
+.container,
+.row {
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+.row {
+	height: 50px;
+  background: #232F3E;
+  min-width: 1000px;
+  position:relative;
+}
+button {
+  background-color: transparent;
+  color: white;
+}
+button:hover {
+  border: 1px #ccc solid;
+  color: white;
+}
+a {
+  color: #ccc;
+  margin: 0 5px;
+	cursor: pointer;
+}
+.rocketman {
+  width: 320px;
+  height: 258px;
+  padding: 0;
+}
+.cart {
+  border-color: transparent;
+  font-size: 39px;
+	float: right;
+}
+.left-side {
+  float: left;
+  position: absolute;
+  bottom: 2px;
+}
+.right-side {
+  float: right;
+  padding-right: 30px;
+}
+.right-side button {
+  margin-left: 12px;
+}
+/* open/close dropdown */
+.btn-group .dropdown-menu {
+	display: none;
+}
+.btn-group:hover .dropdown-menu {
+	display: block;
+}

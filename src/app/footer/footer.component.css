@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  min-width: 1000px;
+}
+.row {
+  width: 1500px;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.goUp {
+  background-color: #4e5864;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px 0;
+  color: white;
+  margin: 0;
+}
+.mid {
+  background-color: #384351;
+  padding-bottom: 10px;
+}
+.mid-country img {
+  width: 100px;
+}
+.bottom {
+  background-color: #232F3E;
+  padding-top: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+h4 {
+  color: white;
+}
+table {
+  margin: 10px auto;
+  width: 1250px;
+  min-width: 1250px;
+}
+span {
+  color: white;
+  font-size: 12px;
+}
+td {
+  text-align: left;
+  padding: 0 10px;
+}
+td a {
+  color: #ddd;
+  display: block;
+}
+.money {
+  vertical-align: text-top;
+}
+.money a,
+.mid-country a {
+  font-size: 12px;
+  padding-right: 10px;
+}

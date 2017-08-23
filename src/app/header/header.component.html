@@ -1,0 +1,26 @@
+<div class="container">
+	<div class="row" style="background-color: #F6F6F6;">
+		<img src="https://images-na.ssl-images-amazon.com/images/G/01/airstream/upnav/C/C_latest_1x._CB518726901_.jpg" alt="banner">
+	</div>
+	<div class="row">
+			<img src="/assets/images/amazonLogo.png">
+			<form>
+		    <div class="select">
+		      <select>
+		  			<option value="All">All Departments</option>
+		  			<option value="Amazon Video">Amazon Video</option>
+		  			<option value="Appliances">Appliances</option>
+		  			<option value="Apps and Games">Apps and Games</option>
+		  			<option value="Arts, Crafts, and Sewing">Arts, Crafts, and Sewing</option>
+		  			<option value="Automotive">Automotive</option>
+		  			<option value="Baby">Baby</option>
+		  			<option value="Beauty">Beauty</option>
+		  			<option value="Books">Books</option>
+		  		</select>
+		    </div>
+				<input type="text" (keydown.enter)="$event.preventDefault();searchItem($event);" #searchBar>
+		    <button type="button" class="btn glyphicon glyphicon-search" (click)="searchItem($event)"></button>
+			</form>
+			<img src="https://images-na.ssl-images-amazon.com/images/G/01/img17/student/gateway/AMAZON_SWM_400x39._V504063529_.jpg">
+		</div>
+</div>

@@ -1,0 +1,23 @@
+.hold {
+  margin-bottom: 25px;
+  height: 250px;
+}
+.row {
+  text-align: center;
+  min-width: 1000px;
+  height: 100%;
+}
+.row a {
+  display: inline-block;
+  width: 12%;
+
+}
+img {
+  margin: auto;
+}
+.glyphicon-chevron-left {
+  left: 10%;
+}
+.glyphicon-chevron-right {
+  right: 10%;
+}

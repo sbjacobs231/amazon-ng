@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+
+      <div class="col-xs-8">
+        <app-merchandise
+          *ngFor="let image of images;let i = index"
+          [imageObject]="image"
+          [index]="i">
+        </app-merchandise>
+      </div>
+
+      <div class="col-xs-4 banner">
+        <app-advertisements></app-advertisements>
+      </div>
+
+  </div>
+</div>
+<div class="col-xs-12">
+  <hr>
+  <app-movies
+    *ngFor="let movie of movies;let ind = index"
+    [movieImage]="movie"
+    [index]="ind">
+  </app-movies>
+</div>

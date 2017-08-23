@@ -1,0 +1,21 @@
+.hold {
+  text-align: left;
+  margin: 15px auto;
+  height: 250px;
+}
+.col-xs-12 {
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}
+img {
+  margin: auto;
+}
+.glyphicon-chevron-left {
+  left: 10%;
+}
+.glyphicon-chevron-right {
+  right: 10%;
+}

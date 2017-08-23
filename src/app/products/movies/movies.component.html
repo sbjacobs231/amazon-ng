@@ -1,0 +1,45 @@
+
+<div class="hold">
+  <div class="col-xs-12">
+    <h4>{{ imageObject.category }}</h4>
+      <div id="{{ 'longCarousel' + index }}" class="carousel slide" data-interval="false">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <div class="row">
+                      <a><img src="{{ imageObject.imageSrc[0] }}" alt="Image1" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[1] }}" alt="Image2" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[2] }}" alt="Image3" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[3] }}" alt="Image4" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[4] }}" alt="Image5" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[5] }}" alt="Image6" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[6] }}" alt="Image7" class="img-responsive"></a>
+                      <a><img src="{{ imageObject.imageSrc[7] }}" alt="Image8" class="img-responsive"></a>
+                  </div>
+                  <!--/row-->
+              </div>
+              <!--/item-->
+              <div class="item">
+                  <div class="row">
+                    <a><img src="{{ imageObject.imageSrc[8] }}" alt="Image1" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[9] }}" alt="Image2" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[10] }}" alt="Image3" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[11] }}" alt="Image4" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[12] }}" alt="Image5" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[13] }}" alt="Image6" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[14] }}" alt="Image7" class="img-responsive"></a>
+                    <a><img src="{{ imageObject.imageSrc[15] }}" alt="Image8" class="img-responsive"></a>
+                  </div>
+                  <!--/row-->
+              </div>
+              <!--/item-->
+
+          </div>
+          <!--/carousel-inner-->
+          <a class="left carousel-control" href="{{ '#longCarousel' + index }}" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="{{ '#longCarousel' + index }}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+      </div>
+      <!--/myCarousel-->
+    </div>
+  </div>

@@ -1,0 +1,43 @@
+.container,
+.row {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-width: 1000px;
+	overflow: hidden;
+}
+.row {
+	height: 55px;
+  background: #232F3E;
+}
+form {
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
+  width: calc(100% - 200px - 400px); /* full width minus two images on line */
+}
+.select,
+input,
+select,
+button {
+  height: 100%;
+  top: 0;
+  float: left;
+}
+.select {
+  border-radius: 4px 0 0 4px;
+  background-color: #F3F3F3;
+}
+input {
+  width: calc(100% - 176px - 40px);
+}
+button {
+  background-color: #FEBD69;
+  border-radius: 0 4px 4px 0;
+  width: 40px;
+  font-size: 20px;
+  padding: 0;
+}
+select {
+  border: 0;
+}
