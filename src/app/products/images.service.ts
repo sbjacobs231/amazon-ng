@@ -4,9 +4,9 @@ import { Images } from './images.model';
 @Injectable()
 export class ImagesService {
 
-  books = '/assets/images/books/book';
-  dvds = '/assets/images/dvds/dvd';
-  ps4 = '/assets/images/ps4/ps4-';
+  books = './assets/images/books/book';
+  dvds = './assets/images/dvds/dvd';
+  ps4 = './assets/images/ps4/ps4-';
 
   private images: Images[] = [
     new Images(
