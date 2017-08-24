@@ -19,3 +19,10 @@ img {
 .glyphicon-chevron-right {
   right: 10%;
 }
+.carousel-control {
+  cursor: pointer;
+  visibility: hidden;
+}
+.carousel:hover .carousel-control {
+  visibility: visible;
+}

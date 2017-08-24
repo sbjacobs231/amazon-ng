@@ -8,6 +8,10 @@
 }
 span {
   cursor: pointer;
+  visibility: hidden;
+}
+#Carousel:hover span {
+  visibility: visible;
 }
 img {
   min-width: 1500px;
